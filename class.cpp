@@ -966,7 +966,7 @@ int main() {
         for (int j = 0; j < 9; ++j) {
             matrix[i][j] = initialMatrix[i][j];
         }
-    }
+    }  
 
     // Создайте вектор точек points
     vector<Point> points = createPointsVector();
