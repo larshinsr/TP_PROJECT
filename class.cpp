@@ -986,7 +986,7 @@ int main() {
     // Освободить память для matrix
     for (int i = 0; i < 9; ++i) {
         delete[] matrix[i];
-    }
+    } 
     delete[] matrix; 
 
     return 0;
